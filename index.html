@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/66ec03f581.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Hide scrollbar for WebKit browsers */
+    .grid-container::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="px-4 p-2 flex flex-col pb-[70px]">
+  <div class="w-full flex justify-between mt-4 items-center">
+    <!-- User icon on the left -->
+    <div class="">
+      <div>
+        <img src="./public/avatar-male.png" class="w-[35px]" alt="" />
+      </div>
+    </div>
+
+    <!-- Other icons on the right -->
+    <div class="flex flex-row items-center">
+      <i class="fa-solid fa-magnifying-glass px-2"></i>
+      <i class="far fa-bell px-2"></i>
+      <!-- Use "far" for regular Font Awesome icons -->
+      <i class="far fa-comment px-2"></i>
+    </div>
+  </div>
+
+  <div class="flex flex-row mt-[20px] w-full gap-3">
+    <div class="flex items-center border-2 rounded-md p-2">
+      <div class="flex flex-col">
+        <p class="text-[10px] text-gray-500 sm:text-[16px] md:text-[20px] lg:text-[24px]">Nifty 50</p>
+        <p class="text-[14px] font-bold sm:text-[16px] md:text-[20px] lg:text-[24px]">19,674</p>
+        <p class="text-red-500 text-[8px] sm:text-[16px] md:text-[20px] lg:text-[24px]">-68.10 (0.34%)</p>
+      </div>
+      <div class="ml-2">
+        <img class="object-contain w-14 sm:w-20 md:w-28 lg:w-36" src="./public/stock-chart.png" alt="" />
+      </div>
+    </div>
+    <div class="flex items-center border-2 rounded-md p-2">
+      <div class="flex flex-col">
+        <p class="text-[10px] text-gray-500 text-[10px] text-gray-500 sm:text-[16px] md:text-[20px] lg:text-[24px]">Nifty Bank</p>
+        <p class="text-[14px] font-bold sm:text-[16px] md:text-[20px] lg:text-[24px]">44,612</p>
+        <p class="text-red-500 text-[8px] sm:text-[16px] md:text-[20px] lg:text-[24px]">-68.10 (0.34%)</p>
+      </div>
+      <div class="ml-2">
+        <img class="object-contain w-14 sm:w-20 md:w-28 lg:w-36" src="./public/stock-chart.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col mt-4 m-1">
+    <div class="bg-[#d6dfff] rounded-md p-2 flex flex-row items-center justify-center">
+      <div class="p-2">
+        <p class=" text-[12px] sm:text-[18px] font-bold md:text-[20px] lg:text-[24px]">
+          Try Ai Assistance help to get better investment Plans
+        </p>
+        <div class="bg-white rounded-full text-[12px] py-2 w-[40%] sm:w-[20%] text-center mt-2 font-bold text-blue-600">
+          Try now
+        </div>
+      </div>
+      <div>
+        <img src="./public/rupee icon.png" class="w-[160px]" alt="" />
+      </div>
+    </div>
+    
+    <p class="text-[16px] font-bold mt-4">All Investment Options</p>
+    <div class="flex flex-col lg:flex-row lg:justify-around mt-3">
+
+      <div class="flex justify-between lg:justify-around w-full lg:mt-4">
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/stock.svg" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Stocks</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/gold.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Gold Bonds</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/mutual fund.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Mutual Funds</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/nps.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">NPS</p>
+        </div>
+      </div>
+      <div class="flex justify-between lg:justify-around w-full lg:mt-4">
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/etf.jpg" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">ETF</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/Liquid funds.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Liquid Funds</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/portfolio.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Portfolio</p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./public/bond.png" alt="" class="w-10 h-10 rounded-full border-1 border-gray-400" />
+          <p class="text-xs mt-2">Bonds</p>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    </div>
+    
+    <hr class="w-full border-gray-200 mt-5 border-t-2" />
+
+    <div class="mt-4">
+      <p class="text-[15px] font-bold">Mutual Funds</p>
+
+      <div class="flex flex-col items-start gap-6 overflow-auto mt-2 md:mt-3">
+        <div class="w-full overflow-auto md:m-0 grid-container">
+          <div class="flex items-center justify-between gap-4 md:gap-8 min-w-max">
+            <!-- Your slider content goes here -->
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/quant logo.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Quant Small Cap Fund Direct Plan Growth
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  ICICI Small Cap Bluechip Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Bajaj Allianz Equity Growth Fund
+                </p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 border-gray-200 rounded-md flex flex-row max-w-[180px] p-2">
+              <div>
+                <img src="./public/icici.png" class="w-14 h-6" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">Laxmi Cheat fund Grow 2x</p>
+                <div class="flex justify-between">
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      Min Invest
+                    </p>
+                    <p class="font-bold text-[10px]">₹ 500</p>
+                  </div>
+                  <div class="flex flex-col items-start">
+                    <p class="font-light text-[12px] text-gray-400">
+                      5Y CAGR
+                    </p>
+                    <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the above slider items as needed -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="w-full border-gray-300 mt-5 border-t-4" />
+
+    <div class="mt-4">
+      <p class="text-[14px] font-bold mt-4">Top Stocks</p>
+
+      <div class="mt-2 md:mt-3 w-full flex gap-6 items-start overflow-auto">
+        <div class="w-full  overflow-auto md:m-0 grid-container">
+          <div class="flex items-center justify-between gap-4 md:gap-8 min-w-max">
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 bg-white border-gray-200 rounded-md flex flex-col w-[120px] p-2 px-3">
+              <div>
+                <img src="./public/quant logo.png" class="w-12 h-12" alt="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[12px]">AXIS BANK</p>
+                <div class="flex items-start">
+                  <div class="flex flex-col items-start">
+                    <p class="font-bold text-[12px]">₹ 1,529</p>
+                    <p class="text-[10px] text-red-700 font-bold">
+                      +8.70(1.20%)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <p class="text-[14px] font-bold">Trending Portfolio</p>
+      <div class="mt-2 md:mt-3 w-full flex gap-6 items-start overflow-auto">
+        <div class="w-full  overflow-auto md:m-0 grid-container">
+          <div class="flex items-center justify-between gap-4 md:gap-8 min-w-max">
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Created By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-col max-w-[180px] h-[120px] p-2">
+              <div class="flex flex-row items-center">
+                <img src="./public/icici.png" class="w-12 h-10" alt="" />
+                <div class="flex flex-col items-start pl-2">
+                  <p class="text-[10px] font-bold">Top 100 Stocks</p>
+                  <p class="text-[10px]">Creted By : John wick</p>
+                </div>
+              </div>
+
+              <div class="flex justify-between mt-3">
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    volatility
+                  </p>
+                  <p class="font-bold text-[10px]">Low Risk</p>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">
+                    Min Invest
+                  </p>
+                  <p class="font-bold text-[10px]">₹ 500/p></p>
+                </div>
+
+                <div class="flex flex-col items-start">
+                  <p class="font-light text-[10px] text-gray-400">5Y CAGR</p>
+                  <p class="text-[red] font-bold text-[10px]">48.64%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="w-full border-gray-200 mt-3 border-t-4" />
+
+    <p class="text-[15px] font-bold mt-4">Popular Courses</p>
+
+    <div class="mt-2 md:mt-3 w-full flex gap-6 items-start overflow-auto">
+      <div class="w-full overflow-auto md:m-0 grid-container">
+        <div class="flex items-center justify-between gap-4 md:gap-8 min-w-max">
+          <div class="border-2 border-gray-200 rounded-md flex flex-col w-[172px] h-[150px] relative">
+            <div class="flex flex-row items-center relative">
+              <img src="./public/100trade.jpg" class="w-full h-[100px] rounded-md" alt="" />
+              <div
+                class="flex flex-row bg-white justify-center items-center index-2 py-1 px-2 rounded-md absolute right-1 bottom-2">
+                <img src="./public/user.png" alt="" class="h-3 w-3" />
+                <p class="text-[12px] font-bold">1.7k+</p>
+              </div>
+            </div>
+
+            <div class="flex justify-between mt-1 p-1 relative">
+              <div class="flex flex-col items-start">
+                <p class="font-bold text-[12px]">How Health Is Created</p>
+                <p class="text-[10px] text-gray-400">1hr * 10 Classes</p>
+              </div>
+              <div class="absolute right-2 bottom-2">
+                <img src="./public//ribbon.png" class="w-4 h-auto" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="border-2 border-gray-200 rounded-md flex flex-col w-[172px] h-[150px] relative">
+            <div class="flex flex-row items-center relative">
+              <img src="./public/100trade.jpg" class="w-full h-[100px] rounded-md" alt="" />
+              <div
+                class="flex flex-row bg-white justify-center items-center index-2 py-1 px-2 rounded-md absolute right-1 bottom-2">
+                <img src="./public/user.png" alt="" class="h-3 w-3" />
+                <p class="text-[12px] font-bold">1.7k+</p>
+              </div>
+            </div>
+
+            <div class="flex justify-between mt-1 p-1 relative">
+              <div class="flex flex-col items-start">
+                <p class="font-bold text-[12px]">How Health Is Created</p>
+                <p class="text-[10px] text-gray-400">1hr * 10 Classes</p>
+              </div>
+              <div class="absolute right-2 bottom-2">
+                <img src="./public//ribbon.png" class="w-4 h-auto" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="border-2 border-gray-200 rounded-md flex flex-col w-[172px] h-[150px] relative">
+            <div class="flex flex-row items-center relative">
+              <img src="./public/100trade.jpg" class="w-full h-[100px] rounded-md" alt="" />
+              <div
+                class="flex flex-row bg-white justify-center items-center index-2 py-1 px-2 rounded-md absolute right-1 bottom-2">
+                <img src="./public/user.png" alt="" class="h-3 w-3" />
+                <p class="text-[12px] font-bold">1.7k+</p>
+              </div>
+            </div>
+
+            <div class="flex justify-between mt-1 p-1 relative">
+              <div class="flex flex-col items-start">
+                <p class="font-bold text-[12px]">How Health Is Created</p>
+                <p class="text-[10px] text-gray-400">1hr * 10 Classes</p>
+              </div>
+              <div class="absolute right-2 bottom-2">
+                <img src="./public//ribbon.png" class="w-4 h-auto" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="border-2 border-gray-200 rounded-md flex flex-col w-[172px] h-[150px] relative">
+            <div class="flex flex-row items-center relative">
+              <img src="./public/100trade.jpg" class="w-full h-[100px] rounded-md" alt="" />
+              <div
+                class="flex flex-row bg-white justify-center items-center index-2 py-1 px-2 rounded-md absolute right-1 bottom-2">
+                <img src="./public/user.png" alt="" class="h-3 w-3" />
+                <p class="text-[12px] font-bold">1.7k+</p>
+              </div>
+            </div>
+
+            <div class="flex justify-between mt-1 p-1 relative">
+              <div class="flex flex-col items-start">
+                <p class="font-bold text-[12px]">How Health Is Created</p>
+                <p class="text-[10px] text-gray-400">1hr * 10 Classes</p>
+              </div>
+              <div class="absolute right-2 bottom-2">
+                <img src="./public//ribbon.png" class="w-4 h-auto" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="border-2 border-gray-200 rounded-md flex flex-col w-[172px] h-[150px] relative">
+            <div class="flex flex-row items-center relative">
+              <img src="./public/100trade.jpg" class="w-full h-[100px] rounded-md" alt="" />
+              <div
+                class="flex flex-row bg-white justify-center items-center index-2 py-1 px-2 rounded-md absolute right-1 bottom-2">
+                <img src="./public/user.png" alt="" class="h-3 w-3" />
+                <p class="text-[12px] font-bold">1.7k+</p>
+              </div>
+            </div>
+
+            <div class="flex justify-between mt-1 p-1 relative">
+              <div class="flex flex-col items-start">
+                <p class="font-bold text-[12px]">How Health Is Created</p>
+                <p class="text-[10px] text-gray-400">1hr * 10 Classes</p>
+              </div>
+              <div class="absolute right-2 bottom-2">
+                <img src="./public//ribbon.png" class="w-4 h-auto" alt="" />
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <hr class="w-full border-gray-200 mt-4 border-t-4" />
+    <div class="mt-4">
+      <p class="text-[15px] font-bold">Community groups to join</p>
+
+      <div class="flex flex-col items-start gap-6 overflow-auto mt-2 md:mt-3">
+        <div class="w-full  overflow-auto md:m-0 grid-container">
+          <div class="flex items-center justify-between gap-4 md:gap-8 min-w-max">
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-2 border-gray-200 rounded-md flex flex-row items-center w-[190px] p-2">
+              <div>
+                <img src="./public/tipsfor.jpg" class="w-14 h-14" alt="" />
+              </div>
+              <div class="flex flex-col pl-2">
+                <p class="text-[10px] font-bold">
+                  Tips for investigation
+                </p>
+                <div class="flex justify-between mt-2 relative items-center">
+                  <div class="flex flex-row items-center justify-center">
+                    <img src="./public/userpro.png" class="w-4 h-4 absolute left-0 index-0" alt="">
+                    <img src="./public/human.png" class="w-4 h-4 absolute left-3 index-1" alt="">
+                    <img src="./public/profile.png" class="w-4 h-4 absolute left-6 index-2" alt="">
+
+                  </div>
+
+                  <div class="flex flex-col items-start">
+                    <div class="bg-blue-100 rounded-md py-1 px-2 text-[12px] font-bold text-blue-600">Join</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  <footer
+    class=" w-full py-3 flex justify-around items-center border-t-2 border-gray-400 fixed bottom-0 left-0 bg-white"">
+   <div class=" flex flex-col items-center">
+    <img src="./public/home.png" alt="" class="w-5 h-5 ">
+    <p class="text-blue-600 font-bold text-[10px]">Home</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="./public/compass.png" alt="" class="w-5 h-5 ">
+      <p class="text-blue-600 font-bold text-[10px]">Discover</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="./public/briefcase.png" alt="" class="w-5 h-5 ">
+      <p class="text-blue-600 font-bold text-[10px]">Portfolio</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="./public/bookmark.png" alt="" class="w-5 h-5 ">
+      <p class="text-blue-600 font-bold text-[10px]">Watchlist</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="./public/diary.png" alt="" class="w-5 h-5 ">
+      <p class="text-blue-600 font-bold text-[10px]">Learn</p>
+    </div>
+  </footer>
+</body>
+
+</html>
